@@ -1,0 +1,618 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Travel Website</title>
+  </head>
+  <body>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="main.js" type="text/javascript"></script>
+  
+    <!--Nav bar-->
+
+  <div class="whole">
+  <nav class="navbar navbar-expand-lg navbar-light background-color" >
+    <a class="navbar-brand" style="color:#ffffff" href="mailto:malavikamanoj495@gmail.com">malavikamanoj495@gmail.com</a>
+    <a class="navbar-brand" style="color:#ffffff" href="#">0000199100</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">
+            <img src="src/logo.png" width="50" height="50" class="d-inline-block align-top" alt="">
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+          <img src="src/websearch.png" width="50" height="50" class="d-inline-block align-top" alt="">
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            <img src="src/mountain.png" width="50" height="50" class="d-inline-block align-top" alt="">
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">
+          <img src="src/location.png" width="50" height="50" class="d-inline-block align-top" alt="">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+   <!--Nav bar-->
+
+   <div class="aligncenter d-flex justify-content-center">
+   <nav class="navbar navbar-expand-lg navbar-light background-color ">
+    <a class="navbar-text" style="color:#ffffff" href="#">Home</a>
+    <a class="navbar-text" style="color:#ffffff" href="#">About us</a>
+    <a class="navbar-text" style="color:#ffffff" href="#">
+      <img src="src/logo.png" alt="Travel" width="100" height="100">
+    </a>
+    <a class="navbar-text" style="color:#ffffff" href="#">Trips</a>
+    <a class="navbar-text dropdown-toggle" style="color:#ffffff;" href="#">Resources</a>
+  </div>
+    <div class="collapse navbar-collapse" id="navbarNav">
+    </div>
+  </nav>
+
+  <!--Slider 1 with controls-->
+
+  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      
+  <!--Content of slider-->
+
+      <div class="container">
+      <img class="low-opacity d-inline-block w-100" src="src/trip.png" alt="First slide" width="500" height="100%">
+      <div class="centered">Travel With Us</div>
+      <a href="#!" class="btn btn-primary btn-on-img1" style="background-color: #f0d02c; border-color: #f0d02c; color: #000000;">Book Trips</a>
+      <a href="#!" class="btn btn-primary btn-on-img2" style="background-color: #ffffff; border-color: #ffffff; color: #f24211;">Check Past Trips</a>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-inline-block w-100" src="src/trip2.png" alt="Second slide" width="500" height="100%">
+    </div>
+    <div class="carousel-item">
+      <img class="d-inline-block w-100" src="src/trip3.png" alt="Third slide" width="500" height="100%">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+<br>
+<h2 style="color:#ffffff; text-align: center;"> UPCOMING TRIPS </h1>
+<br>
+
+<!-- Carousel wrapper -->
+<div
+  id="carouselMultiItemExample"
+  class="carousel slide carousel-dark text-center"
+  data-mdb-ride="carousel"
+>
+  <!-- Controls -->
+  <div class="d-flex justify-content-center mb-4">
+    <button
+      class="carousel-control-prev position-relative"
+      type="button"
+      data-mdb-target="#carouselMultiItemExample"
+      data-mdb-slide="prev"
+      style="background-color:#ffffff;"
+          >
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden" style="color: #f24211; font-weight: bold;">Previous</span>
+    </button>
+    <button
+      class="carousel-control-next position-relative"
+      type="button"
+      data-mdb-target="#carouselMultiItemExample"
+      data-mdb-slide="next"
+
+    >
+      <span class="carousel-control-next-icon" aria-hidden="true" ></span>
+      <span class="visually-hidden" style="color: #f24211; font-weight: bold;">Next</span>
+    </button>
+  </div>
+
+  <!-- Inner -->
+
+  <div class="carousel-inner py-4">
+  
+    <!-- Single item -->
+
+    <div class="carousel-item active">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="card">
+              <img
+                src="https://mdbcdn.b-cdn.net/img/new/standard/nature/181.webp"
+                class="card-img-top"
+                alt="Waterfall"
+              />
+              <div class="card-body" style="background-color: #040c24";>
+                <h5 class="card-title" style="color: #f0880a;">Honeymoon Trips</h5>
+                <p class="card-text" style="color: #f0880a;">
+                  Plan and book your perfect trip with expert advice, travel tips, destination information and inspiration from us.
+                </p>
+                <a href="#!" class="btn btn-primary" style="background-color: #f24211; border-color: #f24211;";>Book Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 d-none d-lg-block">
+            <div class="card">
+              <img
+                src="https://mdbcdn.b-cdn.net/img/new/standard/nature/182.webp"
+                class="card-img-top"
+                alt="Sunset Over the Sea"
+              />
+              <div class="card-body" style="background-color: #040c24">
+                <h5 class="card-title" style="color: #f0880a;">Manali Trips</h5>
+                <p class="card-text" style="color: #f0880a;">
+                  Plan and book your perfect trip with expert advice, travel tips, destination information and inspiration from us.
+                </p>
+                <a href="#!" class="btn btn-primary" style="background-color: #f24211; border-color: #f24211;">Book Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 d-none d-lg-block">
+            <div class="card">
+              <img
+                src="https://mdbcdn.b-cdn.net/img/new/standard/nature/183.webp"
+                class="card-img-top"
+                alt="Sunset over the Sea"
+              />
+              <div class="card-body" style="background-color: #040c24">
+                <h5 class="card-title" style="color: #f0880a;">Family Trips</h5>
+                <p class="card-text" style="color: #f0880a;">
+                  Plan and book your perfect trip with expert advice, travel tips, destination information and inspiration from us.
+                </p>
+                <a href="#!" class="btn btn-primary" style="background-color: #f24211; border-color: #f24211;";>Book Now</a>
+             </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <!-- Single item -->
+
+  <!-- Inner -->
+</div>
+<!-- Carousel wrapper -->
+
+<!--Gallery-->
+
+<br>
+<div class="container">
+  <h2 style="color:#ffffff; text-align: left;"> GALLERY </h2>
+
+  <div class="lightbox">
+    <div class="row">
+      <div class="col-lg-6">
+        <img
+          src="src/girl.png"
+          data-mdb-img="https://mdbcdn.b-cdn.net/img/Photos/Slides/1.webp"
+          alt="Table Full of Spices"
+          class="w-100 mb-2 mb-md-4 shadow-1-strong rounded"
+        />
+        <img
+          src="src/img1.png"
+          data-mdb-img="https://mdbcdn.b-cdn.net/img/Photos/Square/1.webp"
+          alt="Coconut with Strawberries"
+          class="w-100 shadow-1-strong rounded"
+        />
+      </div>
+      <div class="col-lg-6">
+        <img
+          src="src/img2.png"
+          data-mdb-img="https://mdbcdn.b-cdn.net/img/Photos/Vertical/1.webp"
+          alt="Dark Roast Iced Coffee"
+          class="w-100 shadow-1-strong rounded"
+        />
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+</div>
+<br>
+
+<!--Contact Us-->
+
+    <h2 class="container" style="color:#ffffff; text-align: left;"> CONTACT US </h2>
+    <div class="container">
+      <h1 class="para"> We'd love to <br> hear your <br> story <br> </h1>
+      <div class="row">
+      <p class="para1"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio quam voluptas perspiciatis eaque voluptatum possimus officia dolore modi dolor vitae non, id qui consectetur, quidem aliquid eos obcaecati cum soluta!
+        <br>
+        <br>
+        </p>
+      <p class="para1">9012345678 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; +91-7353569876</p>
+      <p class="para1">Info@Travelagency.com</p>
+    </div>
+  </div>
+    <div class="take-right">
+    <div class="container">
+      <h2 class="para-right"> Get in touch</h2>
+      <br>
+      <div class="row">
+        <p> Hi I am </p>
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+        <br>
+          <form>
+            <div class="form-group">
+              <br>
+              <label for="exampleFormControlInput1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault">
+                I agree to terms and conditions
+              </label>
+            </div>
+              <button type="button" class="btn btn-primary send-button">Send</button>
+            </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+<!--Footer-->
+
+<br>
+<br>
+<div class="text-white text-lg-start footer">
+
+  <!-- Grid container -->
+
+  <div class="container p-4" style="background-color: #18141c;">
+    <!--Grid row-->
+    <div class="row">
+      <!--Grid column-->
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+
+        <ul class="list-unstyled mb-0" style="font-size: 20px; font-weight: bold;">
+          <li>
+            <a href="#!" class="text-white">HOME</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">ABOUT US</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">TRIPS</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">BLOG</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">GALLERY</a>
+          </li>
+        </ul>
+      </div>
+      <!--Grid column-->
+
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+
+        <ul class="list-unstyled" style="font-size: 20px; font-weight: bold;">
+          <li>
+            <a href="#!" class="text-white">OUR STORY</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">CONTACT US</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">REVIEWS</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">TRIP PACKAGES</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">TESTIMONIALS</a>
+          </li>
+        </ul>
+      </div>
+      <!--Grid column-->
+      <!--New column-->
+      <div class="col-lg-4">
+        <h5 class="text-uppercase mb">Get Updates</h5>
+
+        <ul class="list-unstyled">
+          <li>
+          <input type="email" class="no-border" id="inputEmail">
+          </li>
+          <li>
+            <br>
+          <button type="button" class="btnclass">Subscribe</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!--Grid row-->
+  </div>
+
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: #18141c;">
+    <!-- Section: Social media -->
+    <footer class=" text-center text-white">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a
+            class="btn text-white btn-floating m-1"
+            style="background-color: #3b5998;"
+            href="#!"
+            role="button"
+            ><i class="fa fa-facebook"></i
+          ></a>
+    
+          <!-- Twitter -->
+          <a
+            class="btn text-white btn-floating m-1"
+            style="background-color: #55acee;"
+            href="#!"
+            role="button"
+            ><i class="fa fa-twitter"></i
+          ></a>
+    
+          <!-- Google -->
+          <a
+            class="btn text-white btn-floating m-1"
+            style="background-color: #dd4b39;"
+            href="#!"
+            role="button"
+            ><i class="fa fa-google"></i
+          ></a>
+          
+          <!-- Instagram -->
+          <a
+            class="btn text-white btn-floating m-1"
+            style="background-color: #ac2bac;"
+            href="#!"
+            role="button"
+            ><i class="fa fa-instagram"></i
+          ></a>
+    
+          <!-- Linkedin -->
+          <a
+            class="btn text-white btn-floating m-1"
+            style="background-color: #0082ca;"
+            href="#!"
+            role="button"
+            ><i class="fa fa-linkedin"></i
+          ></a>
+          <!-- Github -->
+          <a
+            class="btn text-white btn-floating m-1"
+            style="background-color: #333333;"
+            href="#!"
+            role="button"
+            ><i class="fa fa-github"></i
+          ></a>
+        </section>
+        <!-- Section: Social media -->
+      </div>
+      <!-- Grid container -->
+      <!-- Copyright -->
+    </footer>
+    <!-- Section: Social media -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2023 Copyright:
+    <a class="text-white" href="https://example.com">TechTravel.com</a>
+  </div>
+
+  <!-- Copyright -->
+</footer>
+
+
+<!---->
+<style>
+  @media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+  }
+  
+  body
+  {
+    background-color: #040c24;
+    margin-top: 35px;
+    font-family: 'Isidora', sans-serif;
+    font-size: medium;
+  }
+
+  .whole
+  {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+
+  .text-center
+  {
+    margin-bottom: 0;
+  }
+  .aligncenter,.navbar-text:link
+  {
+    padding: 5px;
+    align-content: center;
+    padding-inline: 90px;
+    font-size: 17px;;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-indent: 5px;
+    white-space: nowrap;
+  } 
+
+  .navbar-brand
+  {
+    font-size: 15px;
+  }
+
+  .centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -150%);
+  font-size: 50px;
+  font-weight: bold;
+  color: #ffffff;
+  }
+
+  .btn-on-img1
+  {
+    position: absolute;
+    top: 80%;
+    left: 70%;
+    transform: translate(-280%, -250%);
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+
+  .btn-on-img2
+  {
+    position: absolute;
+    top: 80%;
+    left: 80%;
+    transform: translate(-180%, -250%);
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+
+  .take-right
+  {
+    position: absolute;
+    top: 90%;
+    left: 60%;
+    margin-right: 190px;
+    margin-top: 81%;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  .low-opacity
+  {
+    opacity: 50%;
+    object-fit: cover;
+    object-position: 100% 50%;
+  }
+
+  .carousel-item {
+  text-align: center;
+  overflow: hidden;
+}
+
+.left-align
+{
+  text-align: left;
+}
+.carousel-item img {
+  max-height: 300px;
+  max-width: 100%;
+}
+
+.no-border {
+  border: none;
+  border-bottom: 2px solid white;
+  border-bottom-style: solid;
+  background: transparent;
+  box-shadow: none; /* You may want to include this as bootstrap applies these styles too */
+  width: 100%;
+}
+
+.para {
+  margin-top: 40px;
+  text-align: left;
+  text-justify: inter-word;
+  font-size: 60px;
+  color: white;
+}
+
+.para1 {
+  margin-top: 30px;
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 20px;
+  color: white;
+  margin-right: 650px;
+  margin-left: 10px;
+}
+
+.para-right
+{
+  text-align:justify;
+}
+
+.btnclass {
+  border-radius: 10px;
+  border: none;
+  background-color: #48444c;
+  color: white;
+  text-transform: uppercase;
+  padding: 10px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.send-button{
+  margin-top: 20px;
+  border-radius: 10px;
+  border: none;
+  background-color: #48444c;
+  color: white;
+}
+.footer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #18141c;
+  color: white;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.lightbox {
+margin-left: 20px;
+margin-right: 20px;
+
+}
+</style>
+
+
