@@ -1,0 +1,230 @@
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+  }
+
+  body
+  {
+    background-color: #040c24;
+    margin-top: 35px;
+    font-family: 'Isidora', sans-serif;
+    font-size: medium;
+  }
+
+  .text-center
+  {
+    margin-bottom: 0;
+  }
+
+  .navbar-brand
+  {
+    font-size: 15px;
+  }
+
+  .centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -150%);
+  font-size: 50px;
+  font-weight: bold;
+  color: #ffffff;
+  }
+
+  .low-opacity
+  {
+    opacity: 50%;
+    object-fit: cover;
+    object-position: 100% 50%;
+  }
+
+  .trip1
+  {
+    object-fit: cover;
+    object-position: 100% 90%;
+  }
+
+  .trip2
+  {
+    object-fit: cover;
+    object-position: 100% 40%;
+  }
+
+  .carousel-item {
+  text-align: center;
+  overflow: hidden;
+  }
+
+  .left-align
+  {
+    text-align: left;
+  }
+
+  .carousel-item img {
+    max-height: 300px;
+    max-width: 100%;
+  }
+
+  .no-border {
+    border: none;
+    border-bottom: 2px solid white;
+    border-bottom-style: solid;
+    background: transparent;
+    box-shadow: none; /* You may want to include this as bootstrap applies these styles too */
+    width: 100%;
+  }
+
+  .lightbox {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .footer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #18141c;
+    color: white;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  
+  .para {
+    margin-top: 40px;
+    text-align: left;
+    text-justify: inter-word;
+    font-size: 60px;
+    color: white;
+    box-sizing: border-box;
+  }
+
+  .para2 {
+    margin-top: 40px;
+    text-align: left;
+    text-justify: inter-word;
+    color: white;
+    box-sizing: border-box;
+    width: 500px;
+    height: 400px;
+  }
+
+  .para1 {
+    margin-top: 30px;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 20px;
+    color: white;
+    margin-left: 10px;
+    float: left;
+  }
+
+  
+  .take-right
+  {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    float: right;
+  }
+
+  .para-right
+  {
+    text-align:justify;
+  }
+
+  .btnclass {
+    border-radius: 10px;
+    border: none;
+    background-color: #48444c;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .send-button{
+    margin-top: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #48444c;
+    color: white;
+  }
+
+  @media (min-width: 1200px) {
+  .aligncenter,.navbar-text:link
+  {
+    padding: 5px;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 17px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-indent: 5px;
+    white-space: nowrap;
+  } 
+
+  .btn-on-img1
+  {
+    position: absolute;
+    top: 80%;
+    left: 40%;
+    transform: translate(-20%, -300%);
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+
+  .btn-on-img2
+  {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(0%, -300%);
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+}
+
+
+@media (max-width: 1199px) {
+  .aligncenter,.navbar-text:link
+  {
+    padding: 5px;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 17px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-indent: 5px;
+    white-space: nowrap;
+  } 
+
+  .btn-on-img1
+  {
+    position: absolute;
+    top: 80%;
+    left: 40%;
+    transform: translate(-40%, -300%);
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+
+  .btn-on-img2
+  {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(0%, -300%);
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+}
